@@ -1,0 +1,19 @@
+package Iniciante;
+import java.io.IOException;
+import java.util.Scanner;
+public class Ex1073 {
+
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+
+        for(int i = 1; i <= N; i++){
+            if(i % 2 == 0){
+                System.out.println(i + "^2 = " + (int) Math.pow(i, 2));
+            }
+        }
+
+        sc.close();
+    }
+}
