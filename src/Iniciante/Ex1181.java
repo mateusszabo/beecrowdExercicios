@@ -33,7 +33,6 @@ public class Ex1181 {
             double media = soma / 12.0;
             System.out.printf("%.1f\n", media);
         }
-
         sc.close();
     }
 }
